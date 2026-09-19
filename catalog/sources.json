@@ -37,10 +37,10 @@
     },
     {
       "id": "xunit",
-      "archive": "sources/xunit-20260914.zip",
-      "sha256": "33cec5d25f8cf183704e2f9956c12da7a490491e034b50a11c0f8a09a0029e9c",
-      "file_count": 144,
-      "bytes": 761929
+      "archive": "sources/xunit-20260918.zip",
+      "sha256": "52c3b62905d9ee792a5784362dd3863c0597d301ed8e7fba84b9427884a8403c",
+      "file_count": 151,
+      "bytes": 794253
     },
     {
       "id": "exidy440",

@@ -286,12 +286,12 @@
     {
       "id": "xunit",
       "family": "X Unit",
-      "version": "Revolution X clean audio/performance",
-      "date": "20260914",
-      "sha256": "1e8b5ed7ad312649ae04fb1669557dc1d1ebc15ff65dc1830012b4aa647fb67e",
-      "status": "Beta; physical signoff passed",
-      "notes": "Revolution X. Separate Music/SFX volume controls and DMA performance changes. No diagnostic overlay; latest whole-core gameplay and cabinet verification remain pending.",
-      "binary": "_Arcade/cores/blahm1d_xunit_20260914.rbf",
+      "version": "Revolution X mouse + sprite cache",
+      "date": "20260918",
+      "sha256": "8bd67839b1070c556eaaa331253daddc4c5c34d1753d70439ccbcceb2337d15c",
+      "status": "Beta; slow-corner setup waiver (-0.195/-0.171 ns), fast corners and hold pass",
+      "notes": "Revolution X. OSD Gun = Mouse now works (left Trigger, right Action). 128 KB sprite cache for the post-helicopter pan-down slowdown. Keeps Music/SFX volume controls. Cabinet verification pending.",
+      "binary": "_Arcade/cores/blahm1d_xunit_20260918.rbf",
       "binding": "blahm1d_xunit",
       "games": [
         {
