@@ -11,5 +11,5 @@ Keep game ROM payloads out of this repository. Preserve source licenses, custom
 MRA layouts, artifact identity, existing saves, and known-issue disclosures.
 
 Publish under blahm1d, including commit author/committer and PR identity. Use
-blahm1d-prefixed public branch names. Do not introduce derpyder or ChatGPT
-references into public files or archives; retain required third-party credits.
+blahm1d-prefixed public branch names. Use only the publishing identity in public files and archives; omit alternate
+account names and assistant branding. Retain required third-party credits.
