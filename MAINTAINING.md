@@ -27,3 +27,33 @@ Do not add ROMs, CHDs, keys, private saves, personal configuration or developmen
 logs to this distribution repository.
 
 The feed format follows the official [custom database specification](https://github.com/MiSTer-devel/Downloader_MiSTer/blob/main/docs/custom-databases.md).
+
+## Required ROM-download coverage check
+
+For every new core or RBF/MRA update, verify ROM-download integration as part of
+release readiness. Update_All's Arcade ROMs option uses a separate database;
+installing an MRA does not automatically register its ROM requirements there.
+
+1. Compare all affected MRA ZIP references with the current Arcade ROMs database
+   configured by Update_All. Preserve custom layouts and check parent/clone and
+   ROM-version compatibility; a ZIP-name match alone is not a content/CRC check.
+2. Confirm this distribution is in the upstream MRA source list. Check the
+   [initial registration PR](https://github.com/zakk4223/ArcadeROMsDB_MiSTer/pull/8)
+   and current upstream state before creating another submission. When needed,
+   submit a tested source/index change from blahm1d as part of the authorized
+   publication task.
+3. Run the upstream metadata generator or equivalent coverage checks and record
+   missing ZIPs, unresolved games, and any parent alternatives. Do not infer
+   complete coverage merely from a successful generator exit.
+4. Verify maintainer acceptance, mirror synchronization, and live database entries
+   before saying automatic ROM delivery is available. An open PR is pending work.
+   If core publication proceeds with gaps, name them explicitly in the handoff.
+5. Verify the live core feed and a clean RBF/MRA download separately from ROM
+   availability and cabinet behavior. No ROM payloads belong in this repository;
+   a separate ROM-hosting/upload operation requires explicit authorization.
+
+Use blahm1d for public author/committer identities, PRs, branch names, and
+distribution URLs. Preserve original third-party license and copyright notices.
+
+Existing registration may discover future MRAs automatically, but every new
+set/version still needs the coverage checks above.
