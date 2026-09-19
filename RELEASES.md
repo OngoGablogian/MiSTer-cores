@@ -1,6 +1,6 @@
-# Release status - 2026-09-14
+# Release status - 2026-09-19
 
-10 RBFs and 37 MRAs. No new FPGA build was performed for this feed.
+11 RBFs and 40 MRAs. No new FPGA build was performed for this feed.
 
 ## Gladiator - 2026-07-29 release
 
@@ -109,3 +109,15 @@ T Unit uses the retained S12 baselines because the later S20/S22 handoff rejects
 The newer Gladiator OSD and Legend of Kage CRT drafts have no corresponding binary; they are not represented as delivered features. Diagnostic Y Unit test-ROM and Wolf HUD-counter images are excluded. Wolf community-hack MRAs are excluded because their ROM sources are separate from the original MAME game sets.
 
 All published MRAs retain the original game profiles and ROM load definitions. Only the core binding is namespaced; invalid double-hyphens inside XML comments are normalized where necessary.
+
+## Night Slashers - v1.4 sprite fade fix
+
+v1.4 sprite/special-attack fade fix; DDR3 sprite graphics and audio updates. Custom MRA ROM layout preserved. Known issues: title-screen starfield animation and occasional sprite edge wrap. No new FPGA build or cabinet test performed for this distribution.
+
+RBF: `blahm1d_nightslashers_20260712.rbf`
+
+SHA-256: `935380e3cc8297154a6d758d50295a279f1db9aeb664d2aef7ee2078b40f4498`
+
+Games: Japan Rev 1.2; Korea Rev 1.3; Over Sea Rev 1.2.
+
+Core by rejectedcoins, built on JTFRAME by Jose Tejada (jotego), with Amber CPU contributions. Original credits and GPLv3 license are preserved in the source archive.

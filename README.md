@@ -27,6 +27,7 @@ up drop-in files, update it or add the INI's two lines to your existing
 | T Unit | S12 ADPCM and DCS baselines; five games |
 | Exidy 440 | r6 family; eleven games |
 | NARC | v22 erase-row candidate |
+| Night Slashers | July 12 v1.4 sprite-fade fix; Japan, Korea and Over Sea |
 
 **These releases include beta cores.** Read [release status and known issues](RELEASES.md)
 before reporting a game issue. Most of the newer binaries still need cabinet

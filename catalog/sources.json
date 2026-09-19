@@ -69,6 +69,13 @@
       "sha256": "fe3df73359e8f6b966d15bea80f4ac0dde27606f673662ed83d1db6255927320",
       "file_count": 218,
       "bytes": 804924
+    },
+    {
+      "id": "nightslashers",
+      "archive": "sources/nightslashers-20260712.zip",
+      "sha256": "726a7b0890b2806a975c15b802ccfea56501cf353daa50636b8a73a03dee06d8",
+      "file_count": 373,
+      "bytes": 753029
     }
   ]
 }
