@@ -17,12 +17,12 @@
     <!-- Wolf master profile 5: Maximum Hangtime 2P/4P harness and development-528 PIC. -->
     <rom index="3" md5="None"><part>05</part></rom>
 
-    <rom index="0" zip="nbamht.zip" md5="None">
+    <rom index="0" zip="nbamht.zip|nbahangt.zip" md5="None">
         <part name="mhtu54_v103.bin" crc="21b0d9e1"/>
         <part name="mhtu63_v103.bin" crc="c6fdbb97"/>
     </rom>
 
-    <rom index="1" zip="nbamht.zip" md5="None">
+    <rom index="1" zip="nbamht.zip|nbahangt.zip" md5="None">
         <part name="mhtu133.bin" crc="3163feed"/>
         <part name="mhtu132.bin" crc="428eaf44"/>
         <part name="mhtu131.bin" crc="5f7c5111"/>
@@ -45,7 +45,7 @@
         <part name="mhtu110.bin" crc="8575aeb2"/>
     </rom>
 
-    <rom index="2" zip="nbamht.zip" md5="None">
+    <rom index="2" zip="nbamht.zip|nbahangt.zip" md5="None">
         <part name="mhtu2.bin" crc="3f0b0d0a"/>
         <part name="mhtu3.bin" crc="ec1db988"/>
         <part name="mhtu4.bin" crc="c7f847a3"/>

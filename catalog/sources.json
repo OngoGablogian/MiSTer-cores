@@ -3,9 +3,9 @@
     {
       "id": "gladiator",
       "archive": "sources/gladiator-20260729.zip",
-      "sha256": "8bd5d61d610101e5c21ab5ac5c725734ce6d47e741c7b2230163c3865554d246",
-      "file_count": 177,
-      "bytes": 462597
+      "sha256": "7993792e35d86cdfd495473eab62f3ae6f5fd64f523990442fa2e04c43d54df0",
+      "file_count": 178,
+      "bytes": 463995
     },
     {
       "id": "legendofkage",
@@ -17,9 +17,9 @@
     {
       "id": "wolfunit",
       "archive": "sources/wolfunit-20260803.zip",
-      "sha256": "e3f30d9f0ba2584db33563cf7cd3f93be9fd5bf31595c151deaa380e8764d76f",
-      "file_count": 519,
-      "bytes": 1428604
+      "sha256": "394e33b620b8ebba0ec24a6822ceb96e5c18a35c9556d22dae38f603cdbe27c0",
+      "file_count": 520,
+      "bytes": 1442616
     },
     {
       "id": "yunit",

@@ -28,12 +28,13 @@
         {
           "name": "Ougon no Shiro (Japan)",
           "setname": "ogonsiro",
-          "mameversion": "0280",
+          "mameversion": "0289",
           "path": "_Arcade/_blahm1d/Gladiator/Ougon no Shiro (Japan).mra",
-          "sha256": "873e62495f0e6a9a22fc7ac9616009be72e7ced3a2bcc7e14d052c53beb73923",
+          "sha256": "d77598087c30308f53fa56eda8b993471b853a3fe6b697d64668cf69dff0e35e",
           "original_sha256": "2fdfc73c5799627d588c2049a49cc26cd89bb952750c7c782e4a5d633ea638bd",
           "rom_archives": [
-            "ogonsiro.zip"
+            "ogonsiro.zip",
+            "gladiatr.zip"
           ]
         }
       ],
@@ -103,10 +104,11 @@
           "setname": "nbamht",
           "mameversion": "0280",
           "path": "_Arcade/_blahm1d/Wolf Unit/NBA Maximum Hangtime (L1.03 06-09-97).mra",
-          "sha256": "d552cf00e7e5318f4e2bc8d3931c866b1fa4dae5a177d0752cd82f5a3b5313b4",
+          "sha256": "01037ca5dc5069edfdcda5029b62476636791fd374ee461447d36d01c779e716",
           "original_sha256": "e73cbb9d6e4309dee60ae2bb1100177fa2c17ed47ffc7fff059e23513e7a9d0c",
           "rom_archives": [
-            "nbamht.zip"
+            "nbamht.zip",
+            "nbahangt.zip"
           ]
         },
         {

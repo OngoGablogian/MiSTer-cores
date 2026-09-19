@@ -121,3 +121,9 @@ SHA-256: `935380e3cc8297154a6d758d50295a279f1db9aeb664d2aef7ee2078b40f4498`
 Games: Japan Rev 1.2; Korea Rev 1.3; Over Sea Rev 1.2.
 
 Core by rejectedcoins, built on JTFRAME by Jose Tejada (jotego), with Amber CPU contributions. Original credits and GPLv3 license are preserved in the source archive.
+
+## September 19 ROM-loading corrections
+
+Ougon no Shiro now uses the Japanese ROM CRCs, the required text/graphics order, and all four MCU ROMs. Its 0x6D440-byte stream matches the published source memory map. It accepts ogonsiro.zip or the merged gladiatr.zip. NBA Maximum Hangtime also accepts merged nbahangt.zip. Both parent archives are indexed by the upstream ROM database. RBFs are unchanged; these metadata fixes have not been cabinet-tested.
+
+Automatic ROM delivery still requires the upstream source registration and mirror sync: [PR #8](https://github.com/zakk4223/ArcadeROMsDB_MiSTer/pull/8). A merged source change alone is not a verified download.
